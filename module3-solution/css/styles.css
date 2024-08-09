@@ -1,0 +1,76 @@
+.horizental-line {
+    color: black;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid;
+}
+
+.listofnames {
+    font-size: 18px;
+    color: black;
+}
+
+.nav li:hover {
+    background-color: rgb(178, 168, 197);
+}
+
+.discription {
+    background-color: rgb(166, 126, 231);
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid black;
+    box-shadow: 1px;
+}
+
+#p1,
+#p2,
+#p3 {
+    padding-inline: 10px; 
+    margin-block: 10px; 
+
+}
+
+.head3 {
+    color: rgb(14, 0, 27);
+    font-weight: bold;
+}
+
+.paragraph {
+    color: rgb(0, 0, 0)
+}
+
+.head2 {
+    margin-bottom: 40px;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.icon-bar span {
+    background-color: black;
+}
+
+@media (min-width:992px) {
+    .discription {
+        height: 219px;
+
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    #p3 {
+        width: 100%;
+    }
+} 
+
+.description {
+    border: 1px solid black;
+    padding-inline: 2rem;
+    height: 20rem;
+    overflow: auto; 
+    background-color: #f4ceff;
+} 
+.nav li {
+    background-color: #b09bb6;
+    border-bottom: 1px solid black;
+}
